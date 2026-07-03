@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>OrthoNow | Book Consultation</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f5f7fb;
+color:#333;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+}
+
+.hero{
+
+background:#0A6EBD;
+
+color:#fff;
+
+padding:60px 20px;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:40px;
+
+margin-bottom:15px;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+max-width:700px;
+
+margin:auto;
+
+margin-bottom:35px;
+
+}
+
+.form-box{
+
+background:#fff;
+
+padding:25px;
+
+border-radius:10px;
+
+max-width:420px;
+
+margin:30px auto;
+
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.form-box h2{
+
+color:#0A6EBD;
+
+margin-bottom:20px;
+
+}
+
+input{
+
+width:100%;
+
+padding:14px;
+
+margin-bottom:15px;
+
+border:1px solid #ccc;
+
+border-radius:6px;
+
+font-size:16px;
+
+}
+
+button{
+
+width:100%;
+
+padding:15px;
+
+background:#ff6600;
+
+color:white;
+
+border:none;
+
+border-radius:6px;
+
+font-size:18px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+background:#e65c00;
+
+}
+
+.trust{
+
+padding:60px 20px;
+
+background:white;
+
+text-align:center;
+
+}
+
+.trust h2{
+
+margin-bottom:30px;
+
+color:#0A6EBD;
+
+}
+
+.trust-grid{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:20px;
+
+}
+
+.card{
+
+background:#f7f7f7;
+
+padding:25px;
+
+border-radius:10px;
+
+}
+
+.card h3{
+
+font-size:32px;
+
+color:#0A6EBD;
+
+margin-bottom:10px;
+
+}
+
+.card p{
+
+font-size:15px;
+
+}
+
+#thankyou{
+
+display:none;
+
+background:#d4edda;
+
+padding:25px;
+
+margin-top:20px;
+
+border-radius:8px;
+
+color:#155724;
+
+text-align:center;
+
+font-size:18px;
+
+}
+
+footer{
+
+background:#0A6EBD;
+
+color:white;
+
+text-align:center;
+
+padding:25px;
+
+margin-top:60px;
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:30px;
+
+}
+
+.hero p{
+
+font-size:17px;
+
+}
+
+.trust-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.form-box{
+
+width:100%;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="container">
+
+<h1>Get an Expert Orthopaedic Opinion</h1>
+
+<p>
+
+Book your consultation at OrthoNow.
+
+Trusted Orthopaedic Specialists helping Bengaluru professionals overcome knee and back pain.
+
+</p>
+
+<div class="form-box">
+
+<h2>Book Consultation</h2>
+
+<form id="consultationForm">
+
+<input
+type="text"
+id="name"
+placeholder="Enter Your Name"
+required>
+
+<input
+type="tel"
+id="phone"
+placeholder="Enter Phone Number"
+required>
+
+<button type="submit">
+
+Book My Consultation
+
+</button>
+
+</form>
+
+<div id="thankyou">
+
+✅ Thank You!
+
+<br><br>
+
+Our team will contact you shortly.
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="trust">
+
+<div class="container">
+
+<h2>Why Choose OrthoNow?</h2>
+
+<div class="trust-grid">
+
+<div class="card">
+
+<h3>4.8★</h3>
+
+<p>Google Rating</p>
+
+</div>
+
+<div class="card">
+
+<h3>10,000+</h3>
+
+<p>Happy Patients</p>
+
+</div>
+
+<div class="card">
+
+<h3>9</h3>
+
+<p>Clinics Across Bengaluru</p>
+
+</div>
+
+<div class="card">
+
+<h3>12+</h3>
+
+<p>Experienced Orthopaedic Specialists</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<section style="padding:60px 20px;background:#eef6fc;">
+
+<div class="container">
+
+<h2 style="text-align:center;color:#0A6EBD;margin-bottom:30px;">
+
+What You Get
+
+</h2>
+
+<div class="trust-grid">
+
+<div class="card">
+
+<h3>✔</h3>
+
+<p>Expert Orthopaedic Consultation</p>
+
+</div>
+
+<div class="card">
+
+<h3>✔</h3>
+
+<p>Personalised Treatment Plan</p>
+
+</div>
+
+<div class="card">
+
+<h3>✔</h3>
+
+<p>Same-Day Appointment Available</p>
+
+</div>
+
+<div class="card">
+
+<h3>✔</h3>
+
+<p>Convenient Bengaluru Locations</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section style="padding:60px 20px;background:white;">
+
+<div class="container">
+
+<h2 style="text-align:center;color:#0A6EBD;margin-bottom:20px;">
+
+Patient Reviews
+
+</h2>
+
+<p style="text-align:center;font-size:18px;max-width:800px;margin:auto;">
+
+⭐⭐⭐⭐⭐
+
+<strong>4.8/5 Average Rating</strong>
+
+based on thousands of patient reviews.
+
+Trusted by working professionals across Bengaluru for knee pain, back pain and sports injuries.
+
+</p>
+
+</div>
+
+</section>
+
+<section style="padding:60px 20px;background:#0A6EBD;color:white;text-align:center;">
+
+<div class="container">
+
+<h2 style="margin-bottom:15px;">
+
+Don't Ignore Your Pain
+
+</h2>
+
+<p style="font-size:18px;margin-bottom:25px;">
+
+Early consultation helps prevent long-term joint problems.
+
+Book your appointment today.
+
+</p>
+
+<a href="#consultationForm">
+
+<button style="max-width:350px;">
+
+Book My Consultation
+
+</button>
+
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 OrthoNow | Expert Orthopaedic Care
+
+</footer>
+
+<script>
+
+// Create dataLayer if GTM is not loaded
+window.dataLayer = window.dataLayer || [];
+
+// Form Submit
+document
+.getElementById("consultationForm")
+.addEventListener("submit", function(e){
+
+e.preventDefault();
+
+const name = document.getElementById("name").value.trim();
+
+const phone = document.getElementById("phone").value.trim();
+
+// Basic validation
+
+if(name==="" || phone===""){
+
+alert("Please enter Name and Phone Number");
+
+return;
+
+}
+
+// GTM dataLayer Push
+
+window.dataLayer.push({
+
+event:"consultation_form_submitted",
+
+user_name:name,
+
+phone_number:phone,
+
+lead_source:"Landing Page",
+
+city:"Bengaluru"
+
+});
+
+// Show in browser console for interview
+
+console.log("Current dataLayer:");
+
+console.log(window.dataLayer);
+
+// Hide Form
+
+document.getElementById("consultationForm").style.display="none";
+
+// Show Thank You Message
+
+document.getElementById("thankyou").style.display="block";
+
+});
+
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
