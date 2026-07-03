@@ -1,0 +1,8 @@
+{
+  "event": "booking_step_complete",
+  "step_number": 1,
+  "step_name": "location_specialty_selected",
+  "clinic_location": "Delhi",
+  "specialty": "Orthopedics",
+  "session_id": "abc123xyz"
+}

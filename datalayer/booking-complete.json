@@ -1,0 +1,9 @@
+{
+  "event": "booking_completed",
+  "booking_id": "BK-10045",
+  "clinic_location": "Delhi",
+  "specialty": "Orthopedics",
+  "appointment_date": "2026-07-15",
+  "lead_type": "Appointment",
+  "session_id": "abc123xyz"
+}
